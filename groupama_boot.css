@@ -1,0 +1,303 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header-container{
+    background-color: #2966b1;
+    color: #fff;
+}
+.header{
+    padding: 15px 10px 25px 10px;
+}
+.logo-container{
+    text-align: center;
+}
+.contact-container{
+    text-align: center;
+}
+.contact-open, .contact-tel{
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 29px;
+}
+.contact-open{
+    background-image: url(kep/ora.png);
+    font-size: 18px;
+}
+.contact-tel{
+    background-image: url(kep/tel.png);
+    font-size: 28px;
+}
+.menu-container{
+    background-color: #d9e8f5;
+    padding: 18px 0 18px 0;
+}
+.menu{
+    background-color: #d9e8f5;
+    font-size: 15px;
+    color: #2966b1;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: block;
+    text-align: center;
+}
+.menu a:hover{
+    background-color: #1695a3;
+    color: #fff;
+}
+.facebook-logo{
+    text-align: right;
+}
+.fb{
+    width: 30px;
+}
+.slide-picture{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: none;
+}
+.slide-picture.active{
+    display: block;
+}
+.sl-picture1{
+    background-image: url(kep/dr.png);
+}
+.sl-picture2{
+    background-image: url(kep/patika.png);
+}
+.ertesuljon, .ertesuljon2{
+    background-color: #2966b1;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.ertesuljon{
+    padding: 4px 20px 0 10px;
+}
+.ertesuljon2{
+    margin-top: 0;
+    padding: 5px 10px 0 10px;
+    margin-bottom: 20px;
+}
+.lorem{
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px black;
+}
+.service{
+    text-align: center;
+    color: #2966b1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.service::after{
+    width: 50px;
+    height: 5px;
+    display: inline-block;
+    background-color: #1695a3;
+    content: "";
+}
+.box-container{
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+.box{
+    text-align: center;
+
+    padding: 50px;
+}
+.picture-container2{
+    background-image: url(kep/hatter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.a-to-z{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}
+.a-to-z::after{
+    width: 50px;
+    height: 5px;
+    display: block;
+    background-color: #1695a3;
+    content: "";
+    margin: 0 auto;
+}
+
+.picture-box{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 10px 10px 10px;
+    margin-top: 5px;
+}
+h3{
+    text-align: center;
+    color: #2966b1;
+}
+.text3{
+    text-align: center;
+}
+.reszletek{
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.picture3{
+    text-align: center;
+    margin: 0px auto 0 auto;
+}
+.elerhetoseg{
+    text-align: center;
+
+}
+.elerhetoseg::after{
+    width: 50px;
+    height: 5px;
+    display: block;
+    background-color: #1695a3;
+    content: "";
+    margin: 0 auto;
+}
+.adat{
+    text-align: center;
+}
+
+.jogok{
+    background-color: #1695a3;
+    padding: 15px 0 0px 0;
+}
+.jog{
+    font-size: 14px;
+    color: #fff;
+}
+.terkep{
+    padding: 0;
+}
+@media(min-width: 992px ){
+    .logo-container{
+        text-align: left;
+        display: inline-block;
+    }
+    .page-title{
+        display: inline;
+        margin: 0 0 0 10px;
+        vertical-align: middle;
+    }
+    .contact-container{
+        text-align: right;
+        padding-top: 15px;
+    }
+    .contact{
+        display: inline-block;
+        text-align: left;
+    }
+    .menu-container{
+        background-color: #d9e8f5;
+        padding: 18px 0 18px 0;
+    }
+    .menu{
+        background-color: #d9e8f5;
+        font-size: 15px;
+        color: #2966b1;
+    }
+    .menu a{
+        text-decoration: none;
+        padding: 20px 20px;
+        text-transform: uppercase;
+        text-align: center;
+        display: inline;
+    }
+    .menu a:hover{
+        background-color: #1695a3;
+        color: #fff;
+    }
+    .facebook-logo{
+        text-align: right;
+    }
+    .fb{
+        width: 30px;
+    }
+    .left-container, .right-containerf{
+        background-color: #f2f2f2;
+    }
+    .primer{
+        border-bottom: 1px solid #9fa1a1;
+    }
+    h2{
+        font-size: 36px;
+        color: #2966b1;
+        margin-bottom: 12px;
+    }
+    .gomb{
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    .age_number{
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #1695a3;
+        font-weight: bold;
+    }
+    #a{
+        margin-top: 24px;
+    }
+    .number{
+        color: #f26101;
+        font-weight: bold;
+    }
+    .btn{
+        border-radius: 0;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .f, .g, .h{
+        width: 88px;
+        margin-bottom: 20px;
+    }
+    .e2{
+        margin-bottom: 18px;
+    }
+    .box-text{
+        font-size: 20px;
+    }
+
+
+}
+@media(min-width: 1200px){
+    .menu{
+        background-color: #d9e8f5;
+        font-size: 20px;
+        color: #2966b1;
+    }
+    .main{
+        background-color: grey;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
